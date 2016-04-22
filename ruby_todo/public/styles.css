@@ -1,0 +1,64 @@
+
+.completed{
+  text-decoration: line-through;
+  }
+
+.tasks{
+  padding:0;
+  list-style:none;
+  font: 16px arial, sans-serif;
+  }
+
+.task{
+  position:relative;
+  padding:2px 0 2px 28px;
+  border-bottom: dotted 2px red;
+  font: 16px arial, sans-serif;
+}
+
+form.update{
+  position:absolute;
+  bottom:2px;
+  left:0;
+  font: 12px arial, sans-serif;
+  }
+form.update input{
+  background:white;
+  color:white;
+  padding:0 2px;
+  border:solid 3px red;
+  cursor:pointer;
+  font: 12px arial, sans-serif;
+}
+
+.tasks li.completed form.update input{
+  color:red;
+  font: 16px arial, sans-serif;
+  }
+
+form.delete{
+  display:inline;
+  font: 8px arial, sans-serif;
+  }
+  
+form.delete input{
+  background:none;
+  cursor:pointer;
+  border:1px;
+  font: 8px arial, sans-serif;
+  }
+
+.lists{
+  padding:0;
+  list-style:none;
+  overflow:hidden;
+  font: 16px arial, sans-serif;
+  }
+  
+.list{
+  float: left;
+  width:30%;
+  margin:0 1%;
+  border-top:solid 3px red;
+  font: 16px arial, sans-serif;
+  }
